@@ -1,122 +1,94 @@
 
 
 body { 
+  width :94%;
   font-family: 'Open Sans', sans-serif;
-  color: #666;
+  color: brown;
 }
+h4 {
+	color: brown;
+	text-align: center;
 
-/* STRUCTURE */
-
-#pagewrap {
-	padding: 5px;
-	width: 960px;
-	margin: 20px auto;
 }
-header {
-	height: 100px;
-	padding: 0 15px;
+/* Desktop 
+*/
+@media (min-width: 992px){
+#zote {
+	width:90%;
 }
 #kushoto {
-	width: 290px;
-	float: left;
-	padding: 5px 15px;
+	width: 25%;
+	height:220px;
+	float: right;
+	padding: 5px 5px 5px 5px;
+	margin: 15px;
+	color: red;
+	bolder: 5px solid blue;
+	background-color:gray;
 }
 
 #kati {
-	width: 294px; /* Account for margins + border values */
-	float: left;
-	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
+	width: 25%;
+	height: 220px;
+	float: right;
+	padding: 5px;
+	margin: 15px;
+	color: green;
+	bolder: 5px;
+	background-color:gray;
 }
 
 #kulia {
-	width: 270px;
-	padding: 5px 15px;
+	width: 25%;
+	height:220px;
+	padding: 5px;
+	float: right;
+	margin: 15px;
+	color: blue;
+	bolder: 5px;
+	background-color:gray;
+}
+
+}
+
+/* Tablate */
+@media (min-width: 768px) and (max-width:991px)
+{
+#zote {
+	width:90%;
+}
+#kushoto {
+	width: 38%;
+	height:220px;
 	float: left;
-}
-footer {
-	clear: both;
-	padding: 0 15px;
-}
-
-/************************************************************************************
-MEDIA QUERIES
-*************************************************************************************/
-/* Tablete */
-@media (min-width: 768px) and (max-width:991) {
-	
-	#pagewrap {
-		width: 94%;
-	}
-	#kushoto {
-		width: 41%;
-		padding: 1% 4%;
-	}
-	#kati {
-		width: 41%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
-	}
-	
-	#kulia {
-		clear: both;
-		padding: 1% 4%;
-		width: auto;
-		float: none;
-	}
-
-	header, footer {
-		padding: 1% 4%;
-	}
+	padding: 5px 5px 5px 5px;
+	margin: 15px;
+	color: red;
+	bolder: 2px solid black;
+	background-color:gray;
 }
 
-/* Mobile */
-@media (max-width: 667px) {
-
-	#kushoto {
-		width: auto;
-		float: none;
-	}
-	
-	#kati {
-		width: auto;
-		float: none;
-		margin-left: 0px;
-	}
-	
-	#kulia {
-		width: auto;
-		float: none;
-	}
-
-}
-
-/* Desktop */
-@media screen and (min-width: 992px) {
-
-	header {
-		height: auto;
-	}
-	h1 {
-		font-size: 2em;
-	}
-	#sidebar {
-		display: none;
-	}
-
+#kati {
+	width: 38%;
+	height: 220px;
+	float: right;
+	padding: 5px 5px 5px 5px;
+	margin: 15px;
+	color: green;
+	bolder: 2px solid black;
+	background-color:gray;
 }
 
 #kulia {
-	background: #f8f8f8;
+	width: 94%;
+	height:220px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	margin: 15px;
+	color: blue;
+	bolder: 2px solid black;
+	background-color:gray;
+	}
 }
-#Kushoto {
-	background: #f0efef;
-}
-header, #kushoto, #kati, #kulia {
-	margin-bottom: 5px;
-}
-
-#pagewrap, header, #kushoto, #kati, #kulia, footer {
-	border: solid 1px #ccc;
-}
+/* Smartphone *
+	
